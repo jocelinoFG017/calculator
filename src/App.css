@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator{
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+.display {
+  margin-bottom: 20px;
+}
+
+.buttons{
+  background-color: red;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* gap: 10px; */
+}
+
+.buttons button{
+  background-color: grey;
+  cursor: pointer;
+}
